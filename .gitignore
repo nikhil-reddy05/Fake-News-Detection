@@ -169,3 +169,19 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# # Ignore dataset files (if large, store separately or use Git LFS)
+# data/*.csv
+# data/*.tsv
+# data/*.json
+# data/*.xlsx
+
+# Ignore saved machine learning models
+models/
+*.h5
+*.pkl
+*.joblib
+
+# Ignore logs & temporary files
+logs/
+*.out
