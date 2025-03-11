@@ -185,3 +185,6 @@ models/
 # Ignore logs & temporary files
 logs/
 *.out
+
+# mac related
+.DS_Store
